@@ -34,7 +34,7 @@ public class EmployeeDataController extends HttpServlet {
 		List<Employee> list = service.getAllEmployees();
 		
 		out.print("<table border='a'>");
-		out.print("<tr><th>ID</th><th>NAME</th><th>PASSWORD</th><th>EMAIL</th><th>COUNTRY</th><th>EDIT</th><th>DELETE</th> </tr>");
+		out.print("<tr><th>ID</th><th>NAME</th><th>PASSWORD</th><th>E-MAIL</th><th>COUNTRY</th><th>EDIT</th><th>DELETE</th> </tr>");
 		
 		for(Employee e : list) {
 		
